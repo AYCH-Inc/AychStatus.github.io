@@ -64,6 +64,8 @@ class Redis
       "decr"             => [ :first ],
       "decrby"           => [ :first ],
       "del"              => [ :all   ],
+      "discard"          => [],
+      "disconnect!"      => [],
       "dump"             => [ :first ],
       "exists"           => [ :first ],
       "expire"           => [ :first ],
